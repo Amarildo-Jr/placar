@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, sans-serif;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -77,6 +78,27 @@
 
 .placar>.lado_placar>.botao-direito {
     right: 0;
+}
+
+#botao-reiniciar {
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+	border: none;
+    font-size: 1.5em;
+    height: 6%;
+    width: 10%;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    overflow: hidden;
+	cursor:pointer;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+
+#botao-reiniciar:hover {
+    background-color: #3E8E41;
 }
 
 @media screen and (min-width: 1000px) {
