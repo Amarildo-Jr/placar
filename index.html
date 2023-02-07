@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Placar de Dois</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="placar">
         <div class="lado_placar" id="lado1">
-            <button onclick="aumentarPlacar('1')" class="botao-up" class="botao-esquerda"></button>
+            <button onclick="aumentarPlacar('1')" class="seta botao-up botao-esquerda"></button>
             <section id="time1">0</section>
-            <button onclick="diminuirPlacar('1')" class="botao-down" class="botao-esquerda"></button>
+            <button onclick="diminuirPlacar('1')" class="seta botao-down botao-esquerda"></button>
         </div>
         <div class="lado_placar" id="lado2">
-            <button onclick="aumentarPlacar('2')" class="botao-up" class="botao-direita"></button>
+            <button onclick="aumentarPlacar('2')" class="seta botao-up botao-direita"></button>
             <section id="time2">0</section>
-            <button onclick="diminuirPlacar('2')" class="botao-down" class="botao-direita"></button>
+            <button onclick="diminuirPlacar('2')" class="seta botao-down botao-direita"></button>
         </div>
     </div>
 </body>
+
+<script src="script.js"></script>
 </html>

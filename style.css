@@ -33,8 +33,9 @@
 }
 
 .lado_placar>section {
+    display: flex;
     width: 100%;
-    font-size: 25em;
+    font-size: 26em;
     font-family: 'Righteous', Verdana, sans-serif;
     text-align: center;
     justify-content: center;
@@ -58,11 +59,6 @@
     position: absolute;
 }
 
-.placar>.lado_placar>button:hover, button:focus {
-    opacity: 1;
-    cursor: pointer;
-}
-
 .placar>.lado_placar>.botao-up {
     background-image:url("icones/arrow_up.png");
     background-position: 50% 10%;
@@ -81,4 +77,11 @@
 
 .placar>.lado_placar>.botao-direito {
     right: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .placar>.lado_placar>button:hover, button:focus {
+    opacity: 1;
+    cursor: pointer;
+    }
 }
