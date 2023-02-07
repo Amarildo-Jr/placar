@@ -10,10 +10,14 @@
 <body>
     <div class="placar">
         <div class="lado_placar" id="lado1">
-            <button onclick="alterarPlacar('1')" id="valor1">0</button>
+            <button onclick="aumentarPlacar('1')" class="botao-up" class="botao-esquerda"></button>
+            <section id="time1">0</section>
+            <button onclick="diminuirPlacar('1')" class="botao-down" class="botao-esquerda"></button>
         </div>
         <div class="lado_placar" id="lado2">
-            <button onclick="alterarPlacar('2')" id="valor2">0</button>
+            <button onclick="aumentarPlacar('2')" class="botao-up" class="botao-direita"></button>
+            <section id="time2">0</section>
+            <button onclick="diminuirPlacar('2')" class="botao-down" class="botao-direita"></button>
         </div>
     </div>
 </body>
